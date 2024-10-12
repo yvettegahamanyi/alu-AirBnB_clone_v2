@@ -20,3 +20,8 @@ def hello_hbnb():
 @app.route("/hbnb", strict_slashes=False)
 def hbnb():
     """Display 'HBNB'"""
+
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0")
+
